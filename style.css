@@ -1,0 +1,104 @@
+
+
+#sticker {
+    height: 65px;
+    width: auto;
+}
+
+#texto_sticker {
+    font-size: large;
+}
+
+#navBar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+
+.enlaces{
+    margin-left: 10px;
+    color: white;
+}
+
+.enlaces:visited {
+    color: grey;
+}
+
+#confe:visited {
+    color: white;
+}
+
+#compra:visited {
+    color: rgb(1, 161, 1);
+}
+
+main {
+    height: 500px;
+    background-image: url("/integrador_1/imagenes/ba1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(0.3);
+}
+
+.absoluto {
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+}
+
+.texto_main {
+    color: white;
+    display: flex;
+    justify-content: end;
+    text-align: right;   
+}
+
+#texto_main_titulo {
+    margin-top: 200px;
+}
+
+#button_white {
+    border: solid 2px white;
+    color: white;
+    margin-right: 15px;
+}
+
+#button_green {
+    background-color: rgb(2, 165, 2);
+}
+
+.subtitulo_centrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#cartas {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#cuerpo_carta {
+    background-color: rgb(88, 88, 88);
+    color: white;
+    height: 100%;
+}
+
+.carta_horizontal {
+    height: 100%;
+}
+
+footer {
+    background-color:darkblue;
+    height: 100px;
+}
+
+#footer_links {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
