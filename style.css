@@ -35,7 +35,7 @@
 
 main {
     height: 500px;
-    background-image: url("./imagenes/ba1.jpg");
+    background-image: url("../imagenes/ba1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
